@@ -8,11 +8,10 @@ import {
 } from "react-icons/lu";
 
 import "./App.css";
-import ModalCompo from "./components/CoffeeCard";
+import ModalCompo from "./components/ModalCompo";
 
 const App = ({ heading }) => {
   const [modal, setModal] = useState(null);
-
   return (
     <div className="overflow-auto w-[900px] mx-auto ">
       <div className="grid grid-cols-6 w-[1800px] bg-slate-200 mt-10 mb-4 mx-4">

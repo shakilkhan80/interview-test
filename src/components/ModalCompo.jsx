@@ -1,4 +1,5 @@
 const ModalCompo = ({ data, setModal }) => {
+
   return (
     <div className="card card-side bg-base-100 shadow-xl">
       <div className="flex justify-between w-full p-4">
